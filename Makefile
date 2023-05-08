@@ -13,6 +13,7 @@ BIN_SRCS = src/utils/error.c \
 	   src/core/cpu.c \
 	   src/core/keypad.c \
 	   src/core/video.c \
+	   src/core/audio.c \
            src/main.c
 BIN_OBJS = $(BIN_SRCS:.c=.o)
 
